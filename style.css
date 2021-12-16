@@ -1,0 +1,490 @@
+.site-header {
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 66px;
+    z-index: 100;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 40px !important;
+    color: white;
+}
+
+.nav-link {
+    padding-left: 10px !important;
+    padding-right: 0px !important;
+}
+
+.icon {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.tel {
+    font-size: 21px;
+    color: white;
+}
+
+main {
+    padding-bottom: 66px;
+    background: rgb(0, 0, 0);
+}
+
+.slider {
+    position: relative;
+    display: block;
+    background: url("img/Rectangle1.png") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top: 55.486%;
+}
+
+.slider-black {
+    position: relative;
+    display: block;
+    background: url("img/back1.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top: 55.486%;
+}
+
+.slider-totalblack {
+    position: relative;
+    display: block;
+    background: url("img/black 2.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top: 55.486%;
+}
+
+.wrap-title,
+.wrap-title-second {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.wrap-title-second {
+    top: 10px;
+}
+
+h1,
+h2 {
+    color: white;
+    font-family: Noto Sans Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px !important;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px !important;
+    color: white;
+}
+
+.red {
+    color: #b82121;
+}
+
+.p1 {
+    margin: 35px auto !important;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.p2 {
+    padding-top: 80px;
+    font-family: Noto Sans Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.p3 {
+    padding-top: 340px;
+    font-family: Noto Sans Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn {
+    width: 229px;
+    height: 60px;
+    background: #b82121;
+    border-radius: 5px;
+    font-family: Noto Sans Display;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.btn-2 {
+    display: flex;
+    align-items: center;
+    margin: 50px auto auto;
+    padding-left: 30px;
+}
+
+.text {
+    width: 60%;
+    margin: 30px auto 50px;
+    font-family: Noto Sans Display;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-img {
+    margin-left: 50px;
+}
+
+.card-text {
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: Noto Sans Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.card-text-first {
+    width: 60%;
+    margin: 70px auto auto 40px;
+    font-family: Noto Sans Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.round1 {
+    border-radius: 50%;
+    width: 287px;
+    height: 287px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+}
+.round {
+    border-radius: 50%;
+    width: 287px;
+    height: 287px;
+    /* position: absolute;
+    top: 10px;
+    left: 12%;
+    z-index: 100;
+    overflow: hidden; */
+}
+
+.round2 {
+    border-radius: 50%;
+    width: 20%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.img-potato {
+    position: absolute;
+    left: 0;
+    top: 140%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: -80px;
+}
+
+.img-delivery {
+    width: 605px;
+    height: 460px;
+    margin-left: 45px;
+}
+
+.img-left-list {
+    position: absolute;
+    top: -30%;
+}
+
+.img-right-list {
+    position: absolute;
+    right: 0;
+    top: 70%;
+}
+
+.img-tomat {
+    position: absolute;
+    left: 10%;
+}
+
+.img-leaf {
+    position: absolute;
+    right: 0;
+    top: 120%;
+}
+
+.img-onion {
+    position: absolute;
+    left: 0;
+    transform: translate(0%, -80%);
+    z-index: 100;
+    overflow: hidden;
+}
+
+.img-menu {
+    position: absolute;
+    right: 0;
+    transform: translate(-70%, -65%);
+    z-index: 100;
+    overflow: hidden;
+}
+
+.img-group {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+}
+
+.img-group img {
+    flex: 0 0 25%;
+}
+
+.img-dash {
+    /* position: absolute; */
+    width: 358px;
+    height: auto;
+}
+
+.img-dishs {
+    display: none;
+}
+
+.menu {
+    margin: 90px auto auto;
+    width: 60%;
+}
+
+.elipse-delivery {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.elipse-delivery p {
+    margin-top: 30px;
+    margin-left: 55px;
+    font-family: Noto Sans Display;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.carousel-item .card {
+    border: none;
+}
+
+.carousel-item .col-md-3 {
+    padding: 0;
+}
+
+.wrap-img img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* @media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+} */
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+/* 
+medium and up screens
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+} */
+
+footer {
+    padding: 35px 0 35px;
+    height: 200px;
+    background: black;
+}
+
+.footer-logo {
+    flex: 0 0 230px !important;
+    padding-left: 65px !important;
+}
+
+.footer-content {
+    display: flex;
+    align-items: stretch;
+    justify-content: right;
+}
+
+.footer-content > div {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-tel {
+    padding-top: 15px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.footer-tel ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding-left: 16px;
+}
+
+.footer-tel li {
+    display: inline-block;
+    padding: 8px;
+}
+.footer-tel a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-adress,
+.footer-email {
+    padding-top: 20px;
+    font-family: Gilroy;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer-logo,
+.footer-tel,
+.footer-adress {
+    position: relative;
+}
+
+.footer-logo::after,
+.footer-tel::after,
+.footer-adress::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 1px;
+    height: 70px;
+    background-color: #393939;
+}
+
+.footer-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 77%;
+    margin: 40px auto;
+}
+
+.footer-down a {
+    color: #e0e0ee;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+
+.footer-email a {
+    color: white;
+    text-decoration: none;
+}
+
+.a-polit {
+    padding-right: 20px;
+}
+
+.a-agreement {
+    margin-left: 40px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(burger.svg);
+}
+
+.icon-mobile {
+    display: none;
+}
+
+.container .text-center {
+    display: none;
+}
+
+
+#recipeCarousel2 {
+    display:none;
+}
